@@ -1,6 +1,6 @@
 {
   "name": "temperature",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Reads a MAX31855 thermocouple on a Raspberry Pi and exposes the latest temperature",
   "main": "index.js",
