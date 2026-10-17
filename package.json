@@ -1,0 +1,18 @@
+{
+  "name": "temperature",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reads a MAX31855 thermocouple on a Raspberry Pi and exposes the latest temperature",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "python3 -m venv --system-site-packages python-venv && python-venv/bin/pip install -r requirements.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonogo/temperature.git"
+  },
+  "author": "Chris Neale",
+  "dependencies": {
+    "python-shell": "~0.0.3"
+  }
+}
